@@ -1,0 +1,228 @@
+USE ArchiveFashionStore;
+GO
+
+-- Сброс таблиц, если они уже существуют
+DROP TABLE IF EXISTS OrderDetails;
+DROP TABLE IF EXISTS Orders;
+DROP TABLE IF EXISTS Variants;
+DROP TABLE IF EXISTS Products;
+DROP TABLE IF EXISTS Collections;
+DROP TABLE IF EXISTS Designers;
+DROP TABLE IF EXISTS Employees;
+
+-- Создание таблицы Employees (Сотрудники)
+CREATE TABLE Employees
+(
+    EmployeeID INT PRIMARY KEY IDENTITY(1, 1),
+    [login] NVARCHAR(50) NOT NULL
+        UNIQUE,
+    [password] NVARCHAR(255) NOT NULL,
+    FirstName NVARCHAR(100) NOT NULL,
+    SecondName NVARCHAR(100) NOT NULL,
+    isAdmin BIT NOT NULL
+);
+
+-- Создание таблицы Designers (Дизайнеры)
+CREATE TABLE Designers
+(
+    DesignerID INT PRIMARY KEY IDENTITY(1, 1),
+    FullName NVARCHAR(100) NOT NULL,
+    Country NVARCHAR(50),
+    Biography NVARCHAR(MAX)
+);
+
+-- Создание таблицы Collections (Коллекции)
+CREATE TABLE Collections
+(
+    CollectionID INT PRIMARY KEY IDENTITY(1, 1),
+    DesignerID INT NOT NULL,
+    CollectionName NVARCHAR(100) NOT NULL,
+    LaunchDate DATE NOT NULL,
+    FOREIGN KEY (DesignerID) REFERENCES Designers (DesignerID)
+);
+
+-- Создание таблицы Products (Продукты)
+CREATE TABLE Products
+(
+    ProductID INT PRIMARY KEY IDENTITY(1, 1),
+    CollectionID INT NOT NULL,
+    ProductName NVARCHAR(100) NOT NULL,
+    Description NVARCHAR(MAX),
+    Price DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (CollectionID) REFERENCES Collections (CollectionID)
+);
+
+-- Создание таблицы Variants (Варианты продуктов)
+CREATE TABLE Variants
+(
+    VariantID INT PRIMARY KEY IDENTITY(1, 1),
+    ProductID INT NOT NULL,
+    VariantName NVARCHAR(100) NOT NULL,
+    Size NVARCHAR(10),
+    Color NVARCHAR(50),
+    StockQuantity INT NOT NULL,
+    FOREIGN KEY (ProductID) REFERENCES Products (ProductID)
+);
+
+-- Создание таблицы Orders (Заказы)
+CREATE TABLE Orders
+(
+    OrderID INT PRIMARY KEY IDENTITY(1, 1),
+    CustomerName NVARCHAR(100) NOT NULL,
+    OrderDate DATE NOT NULL,
+    TotalAmount DECIMAL(10, 2) NOT NULL
+);
+
+-- Создание таблицы OrderDetails (Детали заказа)
+CREATE TABLE OrderDetails
+(
+    OrderDetailID INT PRIMARY KEY IDENTITY(1, 1),
+    OrderID INT NOT NULL,
+    VariantID INT NOT NULL,
+    Quantity INT NOT NULL,
+    UnitPrice DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (OrderID) REFERENCES Orders (OrderID),
+    FOREIGN KEY (VariantID) REFERENCES Variants (VariantID)
+);
+
+-- Вставка данных в таблицу Employees (Сотрудники)
+INSERT INTO Employees
+(
+    [login],
+    [password],
+    FirstName,
+    SecondName,
+    isAdmin
+)
+VALUES
+('admin', 'hashed_password_1', 'Джон', 'Доу', 1),
+('staff1', 'hashed_password_2', 'Джейн', 'Смит', 0),
+('staff2', 'hashed_password_3', 'Эмили', 'Джонсон', 0),
+('staff3', 'hashed_password_4', 'Майкл', 'Уильямс', 0),
+('manager', 'hashed_password_5', 'Сара', 'Браун', 0),
+('clerk1', 'hashed_password_6', 'Лора', 'Дэвис', 0),
+('clerk2', 'hashed_password_7', 'Дэвид', 'Миллер', 0);
+
+-- Вставка данных в таблицу Designers (Дизайнеры)
+INSERT INTO Designers
+(
+    FullName,
+    Country,
+    Biography
+)
+VALUES
+('Йоджи Ямамото', 'Япония', 'Известен авангардным дизайном и увеличенными силуэтами.'),
+('Иссей Мияке', 'Япония', 'Известен плиссированными тканями и инновационными обработками тканей.'),
+('Кензо Такада', 'Япония', 'Известен яркими принтами и живыми дизайнами.'),
+('Рэй Кавакубо', 'Япония', 'Пионер в деконструированном моде.'),
+('Томо Коидзуми', 'Япония', 'Известен своими причудливыми, объемными платьями.'),
+('Хироши Фудзивара', 'Япония', 'Влиятельный дизайнер уличной моды и основатель Fragment Design.'),
+('Джунья Ватанабе', 'Япония', 'Известен экспериментальными дизайнами и сотрудничеством.');
+
+DECLARE @StartDate AS date;
+DECLARE @EndDate AS date;
+
+SELECT @StartDate = '2019-01-01',
+       @EndDate = '2021-12-31';
+
+-- Вставка данных в таблицу Collections (Коллекции)
+INSERT INTO Collections
+(
+    DesignerID,
+    CollectionName,
+    LaunchDate
+)
+VALUES
+(1,
+ 'Коллекция Осень 2024',
+ DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate)
+),
+(2,
+ 'Pleats Please Осень 2024',
+ DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate)
+),
+(3,
+ 'Коллекция Весна 2024',
+ DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate)
+),
+(4,
+ 'Деконструированная А/З 2024',
+ DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate)
+),
+(5, 'Причудливые Чудеса', DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate)),
+(6,
+ 'Fragment Design А/З 2024',
+ DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate)
+),
+(7,
+ 'Экспериментальная Весна 2024',
+ DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate)
+);
+
+-- Вставка данных в таблицу Products (Продукты)
+INSERT INTO Products
+(
+    CollectionID,
+    ProductName,
+    Description,
+    Price
+)
+VALUES
+(1, 'Оверсайз пальто', 'Большое, теплое пальто из темной шерсти.', 1200.00),
+(2, 'Плиссированная юбка', 'Стильная плиссированная юбка различных цветов.', 500.00),
+(3, 'Платье с цветочным принтом', 'Платье с ярким цветочным принтом.', 800.00),
+(4, 'Деконструированный жакет', 'Жакет с асимметричным дизайном.', 1000.00),
+(5, 'Объемное платье', 'Платье с увеличенным объемом.', 1500.00),
+(6, 'Уличная толстовка', 'Толстовка в уличном стиле.', 300.00),
+(7, 'Экспериментальные брюки', 'Брюки с инновационными разрезами.', 600.00);
+
+-- Вставка данных в таблицу Variants (Варианты продуктов)
+INSERT INTO Variants
+(
+    ProductID,
+    VariantName,
+    Size,
+    Color,
+    StockQuantity
+)
+VALUES
+(1, 'Оверсайз пальто - черное', 'L', 'Черный', 10),
+(2, 'Плиссированная юбка - красная', 'M', 'Красный', 20),
+(3, 'Платье с цветочным принтом - синее', 'S', 'Синий', 15),
+(4, 'Деконструированный жакет - серый', 'M', 'Серый', 5),
+(5, 'Объемное платье - белое', 'L', 'Белый', 8),
+(6, 'Уличная толстовка - черная', 'XL', 'Черный', 25),
+(7, 'Экспериментальные брюки - серые', 'M', 'Серый', 12);
+
+-- Вставка данных в таблицу Orders (Заказы)
+INSERT INTO Orders
+(
+    CustomerName,
+    OrderDate,
+    TotalAmount
+)
+VALUES
+('Элис Джонсон', DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate), 1500.00),
+('Боб Смит', DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate), 800.00),
+('Кэрол Уайт', DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate), 1200.00),
+('Дэвид Браун', DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate), 500.00),
+('Ева Грин', DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate), 300.00),
+('Фрэнк Харрис', DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate), 1000.00),
+('Грейс Ли', DATEADD(DAY, RAND(CHECKSUM(NEWID())) * (1 + DATEDIFF(DAY, @StartDate, @EndDate)), @StartDate), 600.00);
+
+-- Вставка данных в таблицу OrderDetails (Детали заказа)
+INSERT INTO OrderDetails
+(
+    OrderID,
+    VariantID,
+    Quantity,
+    UnitPrice
+)
+VALUES
+(1, 1, 1, 1200.00),
+(2, 2, 1, 500.00),
+(3, 4, 1, 1000.00),
+(4, 6, 1, 300.00),
+(5, 7, 1, 600.00),
+(6, 3, 1, 800.00),
+(7, 5, 1, 1500.00);
