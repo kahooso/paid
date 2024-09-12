@@ -26,3 +26,17 @@ C:\Users\ryche\OneDrive\Desktop\курсач трзбд\ArchiveFashionStore\Arch
 C:\Users\ryche\OneDrive\Desktop\курсач трзбд\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.csproj.CoreCompileInputs.cache
 C:\Users\ryche\OneDrive\Desktop\курсач трзбд\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.exe
 C:\Users\ryche\OneDrive\Desktop\курсач трзбд\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.pdb
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\bin\Debug\ArchiveFashionStore.exe.config
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\bin\Debug\ArchiveFashionStore.exe
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\bin\Debug\ArchiveFashionStore.pdb
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.csproj.AssemblyReference.cache
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.AddForm.resources
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.LoginForm.resources
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.MasterForm.resources
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.Properties.Resources.resources
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.ReportForm.resources
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.SignInForm.resources
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.csproj.GenerateResource.cache
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.csproj.CoreCompileInputs.cache
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.exe
+C:\Users\ryche\OneDrive\Desktop\paid\ArchiveFashionStore\ArchiveFashionStore\obj\Debug\ArchiveFashionStore.pdb

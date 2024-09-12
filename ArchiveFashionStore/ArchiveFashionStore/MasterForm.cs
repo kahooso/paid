@@ -232,14 +232,19 @@ namespace ArchiveFashionStore
 
         private void delete()
         {
-            int index = dataGridView.CurrentCell.RowIndex;
-            dataGridView.Rows[index].Visible = false;
-            if (dataGridView.Rows[index].Cells[0].Value.ToString() == string.Empty)
+            int index = -1;
+            if (dataGridView.CurrentCell != null)
             {
+                index = dataGridView.CurrentCell.RowIndex;
+                dataGridView.Rows[index].Visible = false;
+                if (dataGridView.Rows[index].Cells[0].Value.ToString() == string.Empty)
+                {
+                    dataGridView.Rows[index].Cells[dataGridView.ColumnCount - 1].Value = RowState.Deleted;
+                    return;
+                }
                 dataGridView.Rows[index].Cells[dataGridView.ColumnCount - 1].Value = RowState.Deleted;
-                return;
             }
-            dataGridView.Rows[index].Cells[dataGridView.ColumnCount - 1].Value = RowState.Deleted;
+            else MessageBox.Show("Для начала вам необходимо выбрать поле, которое вы хотите удалить!", "Удаление", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
 
         /// <summary>
@@ -346,40 +351,33 @@ namespace ArchiveFashionStore
         {
             searchToolStripTextBox.Clear();
 
-            collections_ID_TextBox.Clear();
             collections_designer_ID_TextBox.Clear();
             collections_name_TextBox.Clear();
             collections_launch_date_TextBox.Clear();
 
-            employee_ID_TextBox.Clear();
             employee_first_name_TextBox.Clear();
             employee_last_name_TextBox.Clear();
             employee_login_TextBox.Clear();
             employee_password_TextBox.Clear();
 
-            designer_ID_TextBox.Clear();
             designer_full_name_TextBox.Clear();
             designer_country_TextBox.Clear();
             designer_biography_TextBox.Clear();
 
-            order_detail_ID_TextBox.Clear();
             order_detail_quantity_TextBox.Clear();
             order_detail_variant_id_TextBox.Clear();
             order_detail_order_id_TextBox.Clear();
             order_detail_unit_price_TextBox.Clear();
 
-            order_ID_TextBox.Clear();
             order_total_amount_TextBox.Clear();
             order_order_date_TextBox.Clear();
             order_customer_id_TextBox.Clear();
 
-            product_ID_TextBox.Clear();
             product_collection_ID_TextBox.Clear();
             product_description_TextBox.Clear();
             product_price_TextBox.Clear();
             product_name_TextBox.Clear();
 
-            product_variants_ID_TextBox.Clear();
             product_variants_name_TextBox.Clear();
             product_variants_color_TextBox.Clear();
             product_variants_size_TextBox.Clear();
@@ -621,7 +619,6 @@ namespace ArchiveFashionStore
         private void refresh()
         {
             RefreshDataGridView(dataGridView);
-            clear();
         }
 
         /// <summary>

@@ -33,7 +33,7 @@ namespace ArchiveFashionStore
         {
             database.open_connection();
             DataTable data_table = new DataTable();
-            string query = periodCheckBox.Checked ? $"SELECT OrderDate, TotalAmount FROM Orders WHERE OrderDate > '{startMaskedTextBox.Text}' AND OrderDate < '{endMaskedTextBox.Text}'"
+            string query = periodCheckBox.Checked ? $"SELECT OrderDate, TotalAmount FROM Orders WHERE OrderDate >= '{startMaskedTextBox.Text}' AND OrderDate <= '{endMaskedTextBox.Text}'"
                 : "SELECT OrderDate, TotalAmount FROM Orders";
             SqlDataAdapter sql_data_adapter = new SqlDataAdapter(query, database.get_connection());
             try
@@ -42,7 +42,7 @@ namespace ArchiveFashionStore
                 reportChart.DataSource = data_table;
                 reportChart.Series["Полная стоимость"].YValueMembers = "TotalAmount";
                 reportChart.Series["Полная стоимость"].XValueMember = "OrderDate";
-                reportChart.Titles.Add("orders total amount");
+                reportChart.Titles.Add("Полная стоимость по заказам");
             }
             catch (System.Exception)
             {

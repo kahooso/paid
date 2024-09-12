@@ -1,58 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\",
+  "WorkspaceRootPath": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|c:\\users\\ryche\\onedrive\\desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\archivefashionstore\\archivefashionstore\\masterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\masterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\archivefashionstore\\masterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\masterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\archivefashionstore\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\archivefashionstore\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\archivefashionstore\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\archivefashionstore\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\archivefashionstore\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\archivefashionstore\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\archivefashionstore\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\archivefashionstore\\md5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\md5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\archivefashionstore\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\archivefashionstore\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\archivefashionstore\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\archivefashionstore\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\archivefashionstore\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|c:\\users\\ryche\\onedrive\\desktop\\paid\\archivefashionstore\\archivefashionstore\\rowstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\rowstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\archivefashionstore\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\archivefashionstore\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\archivefashionstore\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|c:\\users\\ryche\\onedrive\\desktop\\paid\\archivefashionstore\\archivefashionstore\\masterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\masterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\archivefashionstore\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\archivefashionstore\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\archivefashionstore\\masterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\masterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\archivefashionstore\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\archivefashionstore\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\archivefashionstore\\md5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\md5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\archivefashionstore\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{E53C7DB0-BEEB-4F5C-91D5-048C1EA0539D}|ArchiveFashionStore\\ArchiveFashionStore.csproj|solutionrelative:archivefashionstore\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,27 +66,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 431,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "md5.cs",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\md5.cs",
-              "RelativeDocumentMoniker": "ArchiveFashionStore\\md5.cs",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\md5.cs",
-              "RelativeToolTip": "ArchiveFashionStore\\md5.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "DocumentIndex": 2,
+              "Title": "RowState.cs",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\RowState.cs",
+              "RelativeDocumentMoniker": "ArchiveFashionStore\\RowState.cs",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\RowState.cs",
+              "RelativeToolTip": "ArchiveFashionStore\\RowState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T23:29:28.384Z"
+              "WhenOpened": "2024-09-12T20:38:37.689Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AddForm.cs",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\AddForm.cs",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\AddForm.cs",
               "RelativeDocumentMoniker": "ArchiveFashionStore\\AddForm.cs",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\AddForm.cs",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\AddForm.cs",
               "RelativeToolTip": "ArchiveFashionStore\\AddForm.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAgwD8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,11 +96,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SignInForm.cs",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\SignInForm.cs",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\SignInForm.cs",
               "RelativeDocumentMoniker": "ArchiveFashionStore\\SignInForm.cs",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\SignInForm.cs",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\SignInForm.cs",
               "RelativeToolTip": "ArchiveFashionStore\\SignInForm.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAAwEAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -104,36 +109,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MasterForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\MasterForm.cs",
+              "DocumentIndex": 9,
+              "Title": "MasterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\MasterForm.cs",
               "RelativeDocumentMoniker": "ArchiveFashionStore\\MasterForm.cs",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\MasterForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "ArchiveFashionStore\\MasterForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\MasterForm.cs [Design]",
+              "RelativeToolTip": "ArchiveFashionStore\\MasterForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T20:27:12.164Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MasterForm.cs",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\MasterForm.cs",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\MasterForm.cs",
               "RelativeDocumentMoniker": "ArchiveFashionStore\\MasterForm.cs",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\MasterForm.cs",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\MasterForm.cs",
               "RelativeToolTip": "ArchiveFashionStore\\MasterForm.cs",
-              "ViewState": "AQIAAFgBAAAAAAAAAAAcwAUCAAA2AAAA",
+              "ViewState": "AQIAAFACAAAAAAAAAAAYwG0CAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T22:08:47.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "SignInForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\SignInForm.cs",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\SignInForm.cs",
               "RelativeDocumentMoniker": "ArchiveFashionStore\\SignInForm.cs",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\SignInForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\SignInForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "ArchiveFashionStore\\SignInForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T22:44:38.607Z",
@@ -141,24 +146,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ReportForm.cs",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\ReportForm.cs",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\ReportForm.cs",
               "RelativeDocumentMoniker": "ArchiveFashionStore\\ReportForm.cs",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\ReportForm.cs",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\ReportForm.cs",
               "RelativeToolTip": "ArchiveFashionStore\\ReportForm.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAwDMAAAANAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAEwCMAAAC6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T22:20:54.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AddForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\AddForm.cs",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\AddForm.cs",
               "RelativeDocumentMoniker": "ArchiveFashionStore\\AddForm.cs",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\AddForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\AddForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "ArchiveFashionStore\\AddForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T22:44:21.032Z",
@@ -166,11 +171,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "ReportForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\ReportForm.cs",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\ReportForm.cs",
               "RelativeDocumentMoniker": "ArchiveFashionStore\\ReportForm.cs",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\ReportForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\ReportForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "ArchiveFashionStore\\ReportForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T21:44:49.583Z",
@@ -178,51 +183,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\LoginForm.cs",
               "RelativeDocumentMoniker": "ArchiveFashionStore\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\LoginForm.cs",
               "RelativeToolTip": "ArchiveFashionStore\\LoginForm.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAkwCgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T22:49:52.807Z",
+              "WhenOpened": "2024-09-07T22:49:52.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\LoginForm.cs",
+              "RelativeDocumentMoniker": "ArchiveFashionStore\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "..\\..\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T22:49:24.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "ArchiveFashionStore\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\Properties\\Resources.resx",
+              "RelativeToolTip": "ArchiveFashionStore\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-09-07T22:47:46.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\LoginForm.cs",
-              "RelativeDocumentMoniker": "ArchiveFashionStore\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "ArchiveFashionStore\\LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\User.cs",
+              "RelativeDocumentMoniker": "ArchiveFashionStore\\User.cs",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\User.cs",
+              "RelativeToolTip": "ArchiveFashionStore\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T22:49:24.475Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "ArchiveFashionStore\\Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\Properties\\Resources.resx",
-              "RelativeToolTip": "ArchiveFashionStore\\Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-09-07T22:47:46.277Z"
+              "WhenOpened": "2024-09-07T22:41:28.637Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\User.cs",
-              "RelativeDocumentMoniker": "ArchiveFashionStore\\User.cs",
-              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\\u043A\u0443\u0440\u0441\u0430\u0447 \u0442\u0440\u0437\u0431\u0434\\ArchiveFashionStore\\ArchiveFashionStore\\User.cs",
-              "RelativeToolTip": "ArchiveFashionStore\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Title": "md5.cs",
+              "DocumentMoniker": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\md5.cs",
+              "RelativeDocumentMoniker": "ArchiveFashionStore\\md5.cs",
+              "ToolTip": "C:\\Users\\ryche\\OneDrive\\Desktop\\paid\\ArchiveFashionStore\\ArchiveFashionStore\\md5.cs",
+              "RelativeToolTip": "ArchiveFashionStore\\md5.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T22:41:28.637Z"
+              "WhenOpened": "2024-09-07T23:29:28.384Z"
             }
           ]
         }
